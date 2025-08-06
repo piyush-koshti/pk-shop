@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .pg-footer {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .footer {
+    background: #151414;
+    position: relative;
+    color: #fff;
+    
+    .footer-wave-svg {
+        background-color: transparent;
+        display: block;
+        height: 30px;
+        position: relative;
+        top: -1px;
+        width: 100%;
+    
+        .footer-wave-path {
+          fill: #fffff2;
+        }
+    }
+
+    .footer-cta {
+      border-bottom: 1px solid #373636;
+    }
+  
+    .single-cta {
+        text-align: start;
+        display: flex;
+        i {
+            color: #ff5e14;
+            font-size: 30px;
+            float: left;
+            margin-top: 8px;
+        }
+    }
+  
+    .cta-text {
+      padding-left: 15px;
+      display: inline-block;
+  
+      h4 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+  
+      span {
+        color: #757575;
+        font-size: 15px;
+      }
+    }
+  }
+  
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  
+    .footer-pattern img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 330px;
+      background-size: cover;
+      background-position: 100% 100%;
+    }
+  
+    .footer-logo {
+      margin-bottom: 30px;
+  
+      img {
+        max-width: 200px;
+      }
+    }
+  
+    .footer-text p {
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: #7e7e7e;
+        line-height: 28px;
+        a {
+            margin-bottom: 14px;
+            font-size: 14px;
+            color: #7e7e7e;
+            line-height: 28px;
+        }
+        a:hover {
+            color: #ff5e14;
+            transition: color .4s ease;
+        }
+    }
+
+    .footer-social-icon {
+        margin-bottom: 25px;
+        span {
+            color: #fff;
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 15px;
+        }
+        a {
+            color: #fff;
+            font-size: 16px;
+            margin-right: 15px;
+        }
+        i {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 38px;
+            border-radius: 50%;
+        }
+    }
+
+    .facebook-bg {
+      background: #3B5998;
+    }
+  
+    .twitter-bg {
+      background: #55ACEE;
+    }
+  
+    .google-bg {
+      background: #DD4B39;
+    }
+
+    .instagram-bg {
+        background-color: #ac2bac;
+    }
+
+    .linkedin-bg {
+        background-color: #0082ca;
+    }
+    .github-bg {
+        background-color: #333333;
+    }
+  
+    .footer-widget-heading h3 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        position: relative;
+        height: 20px;
+        text-align: initial;
+  
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -15px;
+            height: 2px;
+            width: 50px;
+            background: #ff5e14;
+        }
+    }
+  
+    .footer-widget ul li {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      margin-bottom: 12px;
+      text-align: start;
+  
+      a:hover {
+        color: #ff5e14;
+        transition: color .4s ease;
+      }
+  
+      a {
+        color: #878787;
+        text-transform: capitalize;
+      }
+    }
+  
+    .sign-up-form {
+        position: relative;
+        overflow: hidden;
+    
+        .sign-up-button {
+            width: 100%;
+            padding: 14px 28px;
+            background: #2E2E2E;
+            border: 1px solid #2E2E2E;
+            color: #fff;
+            span {
+                background: #ff5e14;
+                border: 1px solid #ff5e14;
+                border-radius: 0 50% 50% 0;
+                margin-left: 15px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 12px 13px 8px 12px;
+                i {
+                    color: #fff;
+                    font-size: 22px;
+                    transform: rotate(-6deg);
+                }
+            }
+        }
+    }
+    .subscribe-form {
+        position: relative;
+        overflow: hidden;
+    
+        input {
+            width: 100%;
+            padding: 14px 28px;
+            border-radius: 30px;
+            background: #2E2E2E;
+            border: 1px solid #2E2E2E;
+            color: #fff;
+        }
+    
+        button {
+            position: absolute;
+            right: 0;
+            background: #ff5e14;
+            padding: 15px 13px 11px 10px;
+            border: 1px solid #ff5e14;
+            top: 0;
+            border-radius: 0 50% 50% 0;
+    
+            i {
+            color: #fff;
+            font-size: 22px;
+            transform: rotate(-6deg);
+            }
+        }
+    }
+  }
+  
+  .copyright-area {
+    background: #202020;
+    padding: 25px 0;
+  
+    .copyright-text {
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: #878787;
+  
+        a {
+          color: #ff5e14;
+        }
+      }
+    }
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  
+    &:hover a {
+      color: #ff5e14;
+    }
+  
+    a {
+      font-size: 14px;
+      color: #878787;
+    }
+    a:hover {
+        color: #ff5e14;
+        transition: color .4s ease;
+    }
+  }
+  
+  
+   /* ... (other styles) ... */
+
+   @media screen and (max-width: 767px) {
+    /* Styles for screens up to 767px */
+    /* For example: */
+    .single-cta i {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    .cta-text {
+      padding-left: 10px;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+    .footer {
+        .single-cta {
+            margin-bottom: 10px;
+        }
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for screens between 768px and 991px */
+    /* Add styles as needed */
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for screens between 992px and 1199px */
+    /* Add styles as needed */
+  }
+
+  @media screen and (min-width: 1200px) {
+    /* Styles for screens larger than 1200px */
+    /* Add styles as needed */
+  }

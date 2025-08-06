@@ -1,0 +1,121 @@
+$white: white;
+$black: black;
+
+.profile-data {
+    .project-header {
+        .slick-slider {
+            position: relative !important;
+            top: 0;
+            width: 100%;
+            background-color: #000;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    }
+}
+// body {
+//     margin: 0;
+//     padding: 0;
+//     font-family: "Poppins", sans-serif;
+//     background-color: #fcfcfc;
+// }
+.dashboard-container {
+    background: linear-gradient(
+        to top,
+        #cef4e1 0%,
+        #cef4e1 50%,
+        $white 50%,
+        $white 100%
+    );
+    .card-content {
+        border: 0;
+        border-radius: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .card-info {
+            border: 0;
+            border-radius: 25px 0 0 25px;
+            .card-info-content {
+                background-color: black;
+                display: grid;
+                height: 100%;
+                align-content: space-between;
+                border: 0;
+                border-radius: 25px 0 0 25px;
+                .icons {
+                    font-size: 30px;
+                }
+            }
+        }
+        .card-form {
+            border: 0;
+            border-radius: 0 25px 25px 0;
+            .card-form-content {
+                border: 0;
+                border-radius: 0 25px 25px 0;
+                .form-group {
+                    .form-control {
+                        border: 0;
+                        box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset;
+                        border-radius: 25px;
+                        padding: 18px 15px;
+                    }
+                    button {
+                        background-color:darkcyan;
+                        color: $white;
+                        border: 0;
+                        border-radius: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+.dashboard-top-title-container {
+    .register {
+        border: 0;
+        border-radius: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .register:hover {
+        box-shadow: rgba(64, 244, 5, 0.50) 0px 5px 15px;
+    }
+}
+.dashboard-title-container {
+        background-image: url('./../../assets/images/back.jpg');
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    .register {
+        border: 0;
+        border-radius: 25px;
+    }
+    .payment {
+        border: 1px $black solid;
+        border-radius: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .dashboard-container {
+        .card-content {
+            display: grid !important;
+            box-shadow: none;
+            .card-info {
+                border-radius: 25px;
+                margin-bottom: 15px;
+                .card-info-content {
+                    border-radius: 25px;
+                }
+            }
+            .card-form {
+                border-radius: 25px;
+                .card-form-content {
+                    border-radius: 25px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    div {
+                        display: grid !important;
+                    }
+                }
+            }
+        }
+    }
+}

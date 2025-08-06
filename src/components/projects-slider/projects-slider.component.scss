@@ -1,0 +1,116 @@
+.projects-slider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    .card {
+        width: 330px;
+        margin-right: 25px;
+    }
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    // -webkit-user-select: none;
+    user-select: none;
+    // -webkit-touch-callout: none;
+    // -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    .slick-slide {
+        padding: 0 12px;
+    }
+    .card {
+        border: 0;
+    }
+    .image-content {
+        position: relative;
+        row-gap: 5px;
+        // padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 14px;
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #373636;
+            border-radius: 25px 25px 0 25px;
+        }
+        .overlay::before, .overlay::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+            height: 40px;
+            width: 40px;
+            background-color: #373636;
+        }
+        .overlay::after {
+            border-radius: 0 25px 0 0;
+            background-color: #FFF;
+        }
+        .card-image {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: #FFF;
+            padding: 3px;
+        }
+        .card-image {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: #FFF;
+            padding: 3px;
+            .card-img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 4px solid #373636;
+            }
+        }                                
+    }
+    .card-content {
+        position: relative;
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+            margin: auto;
+            padding: 6px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .slick-slide.slick-current {
+
+        h1,
+        p,
+        button {
+            animation: none;
+        }
+
+        .inner-slide-profile-container {
+            img {
+                animation: none;
+            }
+
+            span {
+                animation: none;
+            }
+        }
+    }
+
+    .nextButton {}
+
+    .previousButton {}
+}

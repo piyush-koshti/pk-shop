@@ -1,0 +1,71 @@
+.profile-data {
+    .profile-page-container {
+        // height: 100px;
+    }
+}
+.custom-container {
+    .border {
+        font-size: 15px;
+        padding: 3rem!important;
+        text-align: start;
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 479px) {
+    .custom-container {
+        gap: 0.3rem !important;
+        .border {
+            font-size: 12px;
+            padding: 0.5rem!important;
+            text-align: start;
+        }
+    }
+}
+
+/* Media query for screens between 480px and 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+    .custom-container {
+        gap: 0.3rem !important;
+        .border {
+            font-size: 12px;
+            padding: 0.5rem!important;
+            text-align: start;
+        }
+    }
+}
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom-container {
+        gap: 0.5rem !important;
+        .border {
+            font-size: 12px;
+            padding: 1rem!important;
+            text-align: start;
+        }
+    }
+}
+
+/* Media query for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .custom-container {
+        gap: 0.8rem !important;
+        .border {
+            font-size: 14px;
+            padding: 3rem!important;
+            text-align: start;
+        }
+    }
+}
+
+/* Media query for screens larger than 1200px */
+@media (min-width: 1200px) {
+    .custom-container {
+        gap: 1rem !important;
+        /* Styles for screens larger than 1200px */
+        .border {
+            font-size: 15px;
+        }
+    }
+}

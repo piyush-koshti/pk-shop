@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "live": "pk-shop-2024",
+    "default": "pk-shop-2024",
+    "staging": "pk-shop-2024"
+  },
+  "targets": {},
+  "etags": {}
+}
