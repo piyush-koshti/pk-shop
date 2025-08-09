@@ -17,9 +17,13 @@ export const contactPathPattern = () => {
 
 // export const signUpPath = "/auth"
 export const signUpPath = "auth"
-
 export const signUpPathPattern = () => {
     generatePath(signUpPath)
+}
+
+export const dndPath = "dnd"
+export const dndPathPattern = () => {
+    generatePath(dndPath)
 }
 
 // export const shopPath = "/shop"
@@ -32,4 +36,9 @@ export const shopPathPattern = () => {
 export const checkoutPath = "checkout"
 export const checkoutPathPattern = () => {
     generatePath(checkoutPath)
+}
+
+export const ecomPath = "/ecom"
+export const ecomPathPattern = () => {
+    generatePath(ecomPath)
 }

@@ -52,6 +52,9 @@ const Navigation = () => {
                     <NavLink to="/ecom/shop">
                         SHOP
                     </NavLink>
+                    <NavLink to="/ecom/dnd">
+                        DND
+                    </NavLink>
                     {currentUser ? (
                         <NavLink as="span" onClick={signOutUser}>
                             SIGN OUT

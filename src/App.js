@@ -8,6 +8,8 @@ import {
   signUpPath,
   shopPath,
   checkoutPath,
+  ecomPath,
+  dndPath,
 } from "./Routes"
 // import logo from './logo.svg';
 import './App.css';
@@ -20,6 +22,7 @@ import Shop from './components/shop/shop.component';
 import CheckOut from './components/checkout/checkout';
 import Dashboard from './components/dashboard/dashboard';
 import Navigation from './components/navigation/navigation.component';
+import DragAndDrop from './components/drag-and-drop/drag-and-drop/drag-and-drop.component';
 
 function App() {
   return (
@@ -32,7 +35,7 @@ function App() {
         />
         <Route 
           exact
-          path='/ecom'
+          path={ecomPath}
           element={<Navigation /> } 
         >
           <Route 
@@ -44,6 +47,11 @@ function App() {
             exact
             path={shopPath}
             element={<Shop /> }
+          />
+          <Route 
+            exact
+            path={dndPath}
+            element={<DragAndDrop /> }
           />
           <Route 
             exact
